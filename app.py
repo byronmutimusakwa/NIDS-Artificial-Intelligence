@@ -14,7 +14,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = secrets.token_hex(16)
 
 # Set OpenAI API key from environment variable
-openai.api_key = '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'
+openai.api_key = 'YOUR_SECRET_API_KEY'
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
